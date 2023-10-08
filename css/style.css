@@ -1,5 +1,56 @@
-.container{
+.container {
     width: 100%;
     max-width: 1440px;
     margin: auto;
+}
+
+.first_header {
+    display: flex;
+    height: 160px;
+    padding: 52px 98px;
+    justify-content: center;
+    align-items: center;
+    gap: 251px;
+    background-color: #FFF;
+}
+
+
+.logo {
+    color: #27187F;
+    font-family: Ubuntu;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+li{
+    display: inline-block;
+}
+.navigation{
+    
+    color: #758BFD;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 500;
+}
+.main_navigation{
+    color: #27187F;
+}
+.middle_navigation{
+    margin-inline: 50px;
+}
+
+.search_div {
+    display: flex;
+    width: 221px;
+    padding-left: 0px;
+    justify-content: flex-end;
+    align-items: center;
+    border: 3px solid #27187F;
+    border-radius: 10px;
+}
+
+i {
+    font-size: 56px;
+    padding: 3px;
+    color: #758BFD;
 }
