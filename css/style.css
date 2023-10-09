@@ -22,20 +22,23 @@
     font-weight: 500;
 }
 
-li{
+li {
     display: inline-block;
 }
-.navigation{
-    
+
+.navigation {
+
     color: #758BFD;
     font-family: Ubuntu;
     font-size: 24px;
     font-weight: 500;
 }
-.main_navigation{
+
+.main_navigation {
     color: #27187F;
 }
-.middle_navigation{
+
+.middle_navigation {
     margin-inline: 50px;
 }
 
@@ -53,4 +56,56 @@ i {
     font-size: 56px;
     padding: 3px;
     color: #758BFD;
+}
+
+section {
+    display: flex;
+    width: 1440px;
+    height: 1052px;
+    flex-direction: column;
+
+    align-items: center;
+    background-color: #DDEAF8;
+}
+
+.company_news {
+    color: #27187F;
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 115px 1110px 68px 98px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 98px;
+    flex-wrap: wrap;
+    gap: 51px 22px;
+}
+
+.card {
+    display: flex;
+    width: 400px;
+    padding: 33px 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 33px;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+.pictures {
+    width: 85%;
+    height: 188px;
+    margin: auto;
+}
+
+.open_article {
+    color: #133B3A;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 30px;
 }
