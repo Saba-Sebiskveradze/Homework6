@@ -109,3 +109,67 @@ section {
     font-weight: 400;
     padding-left: 30px;
 }
+
+footer {
+    display: inline-flex;
+    width: 100%;
+    padding: 75px 98px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 663px;
+    background-color: #758BFD;
+}
+
+
+.contact_info {
+    color: #00CAD7;
+    font-family: Century Gothic;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 17px;
+
+}
+
+.mail {
+    color: #FFF;
+    font-family: Century Gothic;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    margin: 21px 0 12px  0;
+}
+
+.social {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.contact_icon {
+    font-size: 22px;
+    color: #FFF;
+}
+.pay{
+    display: flex;
+    gap: 0 11px;
+}
+.pay_ways{
+    width: 97px;
+height: 55px;
+flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+}
+.visa{
+    padding: 13px 5px 15px 2px;
+}
+.master{
+    padding: 1px 5px 5px 7px;
+}
+.cash{
+    padding: 4px 4px 4px 0;
+}
+.inslallments{
+    padding: 0 6px 0 7px;
+}
